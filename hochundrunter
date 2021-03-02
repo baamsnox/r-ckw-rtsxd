@@ -1,0 +1,26 @@
+public class hochundrunter
+{
+       public static void main()
+ {
+  //Variablendeklaration
+  int i, a;
+        
+  //for-Schleife
+  for(a=1;a<=10;a++)
+              {
+           for (i=1;i<=a;i++)
+               {
+                  System.out.print("*");
+               }
+           System.out.println();
+              }
+  for(a=1;a<=10;a++)
+              {
+           for (i=a;i<=10;i++)
+               {
+                  System.out.print("*");
+               }
+           System.out.println();
+              }            
+ }
+}
